@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Logistic Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- It's important that the page looks modern and professional on both desktop and mobile devices. -->
+</head>
+<body>
+  <!-- Header with navigation and language switcher -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo" id="companyName">New&nbsp;Logistic&nbsp;Solutions</div>
+      <nav id="navMenu">
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#advantages" data-i18n="navWhy">Why&nbsp;Us</a>
+        <a href="#facts" data-i18n="navFacts">Facts</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="kz">KZ</button>
+        <button class="lang-btn" data-lang="zh">ZH</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero section with large background and tagline -->
+  <!-- Use a striking aerial photo of a train yard as the hero background to set a
+       professional tone. A dark overlay ensures the text remains legible on
+       smaller screens. -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content animated">
+      <h1 id="heroTitle">Reliable logistics partner</h1>
+      <p id="heroSubtitle">Rail &amp; multimodal solutions for your business</p>
+      <a href="#contact" class="cta-btn" id="heroCTA">Request a quote</a>
+    </div>
+  </section>
+
+  <!-- Statistics bar -->
+  <section class="stats-bar">
+    <div class="container stats-wrapper">
+      <!-- Each stat block gets the animated class for fade‑in and will be animated when scrolled into view -->
+      <div class="stat animated">
+        <span class="stat-number" data-i18n="statYearsNumber">3+</span>
+        <span class="stat-label" data-i18n="statYearsLabel">Years on the market</span>
+      </div>
+      <div class="stat animated">
+        <span class="stat-number" data-i18n="statContainersNumber">1800+</span>
+        <span class="stat-label" data-i18n="statContainersLabel">Containers per month</span>
+      </div>
+      <div class="stat animated">
+        <span class="stat-number" data-i18n="statRoutesNumber">100+</span>
+        <span class="stat-label" data-i18n="statRoutesLabel">Railway routes</span>
+      </div>
+      <div class="stat animated">
+        <span class="stat-number" data-i18n="statOnTimeNumber">98%</span>
+        <span class="stat-label" data-i18n="statOnTimeLabel">On‑time shipments</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section -->
+  <section class="services" id="services">
+    <div class="container section-content">
+      <h2 data-i18n="servicesTitle">Our Services</h2>
+      <div class="services-grid">
+        <!-- Rail Transportation card -->
+        <div class="service-item service-rail animated">
+          <div class="icon-box"><img src="images/train-icon.png" alt="Rail services" class="service-icon"></div>
+          <h3 data-i18n="serviceRailTitle">Rail Transportation</h3>
+          <ul class="service-list">
+            <li data-i18n="serviceRailPoint1">Domestic and international freight across Kazakhstan, CIS, China and Europe</li>
+            <li data-i18n="serviceRailPoint2">Stable schedules &amp; competitive rates</li>
+            <li data-i18n="serviceRailPoint3">Safe and reliable deliveries</li>
+          </ul>
+        </div>
+        <!-- Container & Multimodal card -->
+        <div class="service-item service-container animated">
+          <div class="icon-box"><img src="images/container-icon.png" alt="Container services" class="service-icon"></div>
+          <h3 data-i18n="serviceContainerTitle">Container &amp; Multimodal</h3>
+          <ul class="service-list">
+            <li data-i18n="serviceContainerPoint1">Flexible container &amp; multimodal logistics integrating rail, road &amp; sea</li>
+            <li data-i18n="serviceContainerPoint2">Door‑to‑door solutions from origin to destination</li>
+            <li data-i18n="serviceContainerPoint3">Secure handling &amp; real‑time monitoring</li>
+          </ul>
+        </div>
+        <!-- Wagons & Platforms card -->
+        <div class="service-item service-wagon animated">
+          <div class="icon-box"><img src="images/wagon-icon.png" alt="Wagon leasing" class="service-icon"></div>
+          <h3 data-i18n="serviceWagonTitle">Wagons &amp; Platforms</h3>
+          <ul class="service-list">
+            <li data-i18n="serviceWagonPoint1">Provision of flatcars and rail wagons for diverse cargo</li>
+            <li data-i18n="serviceWagonPoint2">Own &amp; leased fleets with regular maintenance</li>
+            <li data-i18n="serviceWagonPoint3">Tracking &amp; maintenance support throughout transit</li>
+          </ul>
+        </div>
+        <!-- Customs & Terminals card -->
+        <div class="service-item service-customs animated">
+          <div class="icon-box"><img src="images/customs-icon.png" alt="Customs" class="service-icon"></div>
+          <h3 data-i18n="serviceCustomsTitle">Customs &amp; Terminals</h3>
+          <ul class="service-list">
+            <li data-i18n="serviceCustomsPoint1">Customs clearance &amp; brokerage services</li>
+            <li data-i18n="serviceCustomsPoint2">Terminal handling &amp; cargo storage</li>
+            <li data-i18n="serviceCustomsPoint3">Efficient assistance for seamless border crossing</li>
+          </ul>
+        </div>
+        <!-- Consulting & Outsourcing card -->
+        <div class="service-item service-consulting animated">
+          <div class="icon-box"><img src="images/consulting-icon.png" alt="Consulting" class="service-icon"></div>
+          <h3 data-i18n="serviceConsultingTitle">Consulting &amp; Outsourcing</h3>
+          <ul class="service-list">
+            <li data-i18n="serviceConsultingPoint1">Logistics consulting &amp; network optimization</li>
+            <li data-i18n="serviceConsultingPoint2">Full logistics outsourcing &amp; management</li>
+            <li data-i18n="serviceConsultingPoint3">Route analysis &amp; cost reduction strategies</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section class="about" id="about">
+    <div class="container section-content">
+      <h2 data-i18n="aboutTitle">About Us</h2>
+      <p class="animated" data-i18n="aboutParagraph1">We help companies reduce costs and accelerate deliveries through intelligent route planning, efficient use of rolling stock and transparent control at every stage of transportation.</p>
+      <p class="animated" data-i18n="aboutParagraph2">Our mission is to make your logistics predictable, flexible and profitable. We consider ourselves your strategic partner and develop new directions with you, entering new markets and building logistics that work for the growth of your business.</p>
+    </div>
+  </section>
+
+  <!-- Advantages section -->
+  <section class="advantages" id="advantages">
+    <div class="container section-content">
+      <h2 data-i18n="advantagesTitle">Why Choose Us</h2>
+      <div class="advantages-grid">
+        <div class="adv-item animated">
+          <h3>12+</h3>
+          <p data-i18n="advCorridors">International transport corridors</p>
+        </div>
+        <div class="adv-item animated">
+          <h3>1800+</h3>
+          <p data-i18n="advContainers">Containers per month</p>
+        </div>
+        <div class="adv-item animated">
+          <h3>Transparent</h3>
+          <p data-i18n="advRates">Rates &amp; personal manager</p>
+        </div>
+        <div class="adv-item animated">
+          <h3>Client‑first</h3>
+          <p data-i18n="advClient">We think like your logistics department</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facts & Figures section -->
+  <section class="facts" id="facts">
+    <div class="container section-content">
+      <h2 data-i18n="factsTitle">Facts &amp; Figures</h2>
+      <div class="facts-grid">
+        <div class="fact-item animated">
+          <h3>13</h3>
+          <p data-i18n="factHubs">Partner hubs in China, CIS &amp; Europe</p>
+        </div>
+        <div class="fact-item animated">
+          <h3>30+</h3>
+          <p data-i18n="factWagons">Own &amp; leased wagons</p>
+        </div>
+        <div class="fact-item animated">
+          <h3>500+</h3>
+          <p data-i18n="factTariffs">Agreed tariffs with key stations</p>
+        </div>
+        <div class="fact-item animated">
+          <h3>15</h3>
+          <p data-i18n="factPartners">Permanent partners in China</p>
+        </div>
+        <div class="fact-item animated">
+          <h3>4&nbsp;days</h3>
+          <p data-i18n="factDelivery">Average delivery from China border to Kazakhstan</p>
+        </div>
+        <div class="fact-item">
+          <h3>5</h3>
+          <p data-i18n="factLanguages">Service languages (KZ, RU, EN, ZH, TR)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CEO section -->
+  <section class="ceo" id="ceo">
+    <div class="container section-content">
+      <h2 data-i18n="ceoTitle">Director General</h2>
+      <div class="ceo-wrapper">
+        <div class="ceo-photo animated"></div>
+        <div class="ceo-info animated">
+          <h3>Toktabulatov Askar Sairatovich</h3>
+          <p data-i18n="ceoBio1">Founder and CEO of New Logistic Solutions with more than 17 years of experience in transport logistics, multimodal transportation and international railway routes.</p>
+          <p data-i18n="ceoBio2">Thanks to his strategic thinking, discipline and deep expertise, the company has become a reliable operator working on key transit routes between China, the CIS countries and Europe.</p>
+          <h4 data-i18n="ceoAchievementsTitle">Key achievements:</h4>
+          <ul>
+            <li data-i18n="ceoAchievement1">Launched over 100 international routes across the railway corridors of Kazakhstan, Russia and China.</li>
+            <li data-i18n="ceoAchievement2">Achieved four‑fold turnover growth in the last 3 years.</li>
+            <li data-i18n="ceoAchievement3">Built a sustainable partner network in China, Russia, Kazakhstan and Uzbekistan.</li>
+            <li data-i18n="ceoAchievement4">Implemented digital solutions for real‑time control of logistics operations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <div class="container section-content">
+      <h2 data-i18n="contactTitle">Contact Us</h2>
+      <!-- Wrap the contact information and form in an animated container so they fade in when scrolled into view -->
+      <div class="contact-wrapper animated">
+        <div class="contact-info">
+          <p><strong data-i18n="contactPhoneLabel">Phone:</strong> <a href="tel:+77758284909">+7&nbsp;775&nbsp;828&nbsp;49&nbsp;09</a></p>
+          <p><strong data-i18n="contactEmailLabel">Email:</strong> <a href="mailto:info@newlogistics.kz">info@newlogistics.kz</a></p>
+          <p><strong data-i18n="contactAddressLabel">Address:</strong> Republic of Kazakhstan, Astana, st.&nbsp;Konaev&nbsp;12/1, Business center "Na Vodno‑Zelenom Bulvar", office&nbsp;10‑03</p>
+        </div>
+        <form class="contact-form" onsubmit="return false">
+          <input type="text" id="name" placeholder="Name" data-i18n-placeholder="contactNamePlaceholder" required>
+          <input type="email" id="email" placeholder="Email" data-i18n-placeholder="contactEmailPlaceholder" required>
+          <textarea id="message" placeholder="Message" data-i18n-placeholder="contactMessagePlaceholder" required></textarea>
+          <button type="submit" class="cta-btn" id="contactSubmit" data-i18n="contactSubmit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> New Logistic Solutions. <span data-i18n="footerRights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
